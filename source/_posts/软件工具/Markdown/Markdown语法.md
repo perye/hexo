@@ -1,7 +1,7 @@
 ---
 title: Markdown语法
-top: true
-cover: true
+top: false
+cover: false
 categories: 软件工具
 tags:
   - Markdown
