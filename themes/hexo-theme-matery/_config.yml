@@ -64,7 +64,7 @@ cover:
 # index page dream text,
 # 配置首页显示"梦想"的语句.
 dream:
-  enable: true
+  enable: false
   showTitle: true
   title: 我的梦想
   text: 不是每个人都应该像我这样去建造一座水晶大教堂，但是每个人都应该拥有自己的梦想，设计自己的梦想，追求自己的梦想，实现自己的梦想。梦想是生命的灵魂，是心灵的灯塔，是引导人走向成功的信仰。有了崇高的梦想，只要矢志不渝地追求，梦想就会成为现实，奋斗就会变成壮举，生命就会创造奇迹。——罗伯·舒乐
@@ -88,7 +88,7 @@ music:
   preload: 'auto'   # 预加载，可选值: 'none', 'metadata', 'auto'
   volume: 0.7       # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
   listFolded: true  # 列表默认折叠
-  hideLrc: false     # 隐藏歌词
+  hideLrc: true     # 隐藏歌词
 
 # Whether to display the videos.
 # 是否在首页显示视频.
@@ -270,13 +270,13 @@ postCalendar: true
 # the Gitalk config，default disabled
 # Gitalk 评论模块的配置，默认为不激活
 gitalk:
-  enable: true
-  owner: Perye
+  enable: false
+  owner: perye
   repo: perye.github.io
   oauth:
     clientId: 435045138d26b4251181
     clientSecret: a0a12f1c44c40d05b40fcd24b1246555eae4c052
-  admin: Perye
+  admin: perye
 
 # the Gitment config，default disabled
 # Gitment 评论模块的配置，默认为不激活
@@ -304,10 +304,10 @@ livere:
 # To use it, activate the configuration item and set appId and appKey.
 # Valine 评论模块的配置，默认为不激活，如要使用，就请激活该配置项，并设置 appId 和 appKey.
 valine:
-  enable: false
-  appId:
-  appKey:
-  notify: false
+  enable: true
+  appId: vdDyQ6hAMs8uhWjBrxjpUcqB-gzGzoHsz
+  appKey: 52QfOzM1syl09NxeGy2nOKtV
+  notify: true
   verify: false
   visitor: true
   avatar: 'mm' # Gravatar style : mm/identicon/monsterid/wavatar/retro/hide
