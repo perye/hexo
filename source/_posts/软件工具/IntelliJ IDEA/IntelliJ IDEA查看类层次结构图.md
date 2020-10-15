@@ -27,4 +27,4 @@ IntelliJ IDEA查看类层次结构快捷键
 
 然后就可以看到类的具体层次结构了
 
-![IntelliJ IDEA查看类层次结构图](../../../images/软件工具/IDEA/IDEA查看类层次结构图.png)
+![IntelliJ IDEA查看类层次结构图](https://perye-1253375012.cos.ap-guangzhou.myqcloud.com/blog/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/IDEA/IDEA%E6%9F%A5%E7%9C%8B%E7%B1%BB%E5%B1%82%E6%AC%A1%E7%BB%93%E6%9E%84%E5%9B%BE.png)

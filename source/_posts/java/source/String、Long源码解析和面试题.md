@@ -23,8 +23,8 @@ s ="world";
 ```
 从代码上来看，s 的值好像被修改了，但从 debug 的日志来看，其实是 s 的内存地址已经被修改了，也就说 s =“world” 这个看似简单的赋值，其实已经把 s 的引用指向了新的 String，debug 的截图显示内存地址已经被修改，两张截图如下：
 
-![](../../../images/java/source/String、Long源码解析和面试题/1.png)
-![](../../../images/java/source/String、Long源码解析和面试题/2.png)
+![](https://perye-1253375012.cos.ap-guangzhou.myqcloud.com/blog/java/source/String%E3%80%81Long%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90%E5%92%8C%E9%9D%A2%E8%AF%95%E9%A2%98/1.png)
+![](https://perye-1253375012.cos.ap-guangzhou.myqcloud.com/blog/java/source/String%E3%80%81Long%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90%E5%92%8C%E9%9D%A2%E8%AF%95%E9%A2%98/2.png)
 
 我们从源码上查看一下原因：
 ```java
