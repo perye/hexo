@@ -6,7 +6,7 @@ categories: LeetCode
 tags:
   - 数组
   - 哈希表
-keywords: 两数之和-LeetCode
+keywords: 两数之和
 abbrlink: 742bfcc5
 date: 2020-10-20 11:37:41
 ---
