@@ -1,7 +1,16 @@
-[{
-    "avatar": "https://perye.github.io/medias/avatar.jpg",
+[
+  {
+    "avatar": "https://perye-1253375012.cos.ap-guangzhou.myqcloud.com/avatar/1.jpg",
     "name": "perye",
     "introduction": "perye",
     "url": "https://github.com/perye",
     "title": "Follow Me"
-}]
+  },
+  {
+    "avatar": "https://perye-1253375012.cos.ap-guangzhou.myqcloud.com/avatar/2.jpg",
+    "name": "yobins",
+    "introduction": "郭跃滨,高级Java工程师,拥有10年深厚的开发经验",
+    "url": "https://github.com/yobins",
+    "title": "Follow Me"
+  }
+]
