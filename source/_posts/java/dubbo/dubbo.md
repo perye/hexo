@@ -1,7 +1,7 @@
 ---
 title: dubbo
-top: true
-cover: true
+top: false
+cover: false
 categories: Java
 tags:
   - Java
