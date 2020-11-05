@@ -12,10 +12,10 @@
     <%- partial('_partial/back-top') %>
 
     <script type="text/javascript">
-        var OriginTitile=document.title,st;
-        document.addEventListener("visibilitychange",function(){
-            document.hidden?(document.title="别走!-perye",clearTimeout(st)):(document.title="perye",st=setTimeout(function(){document.title=OriginTitile},3e3))
-        })
+        // var OriginTitile=document.title,st;
+        // document.addEventListener("visibilitychange",function(){
+        //     document.hidden?(document.title="别走!-perye",clearTimeout(st)):(document.title="perye",st=setTimeout(function(){document.title=OriginTitile},3e3))
+        // })
     </script>
     <script src="<%- theme.jsDelivr.url %><%- url_for(theme.libs.js.materialize) %>"></script>
     <script src="<%- theme.jsDelivr.url %><%- url_for(theme.libs.js.masonry) %>"></script>
