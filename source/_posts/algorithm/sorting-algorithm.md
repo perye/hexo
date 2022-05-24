@@ -1,7 +1,5 @@
 ---
 title: 十大经典排序算法动画与解析
-top: true
-cover: true
 toc: true
 mathjax: false
 summary: 插入排序、希尔排序、选择排序、冒泡排序、归并排序、快速排序、堆排序、基数排序
@@ -29,7 +27,7 @@ password:
 
 常见的内部排序算法有：插入排序、希尔排序、选择排序、冒泡排序、归并排序、快速排序、堆排序、基数排序等。
 
-![时间复杂度与空间复杂度](https://perye-1253375012.cos.ap-guangzhou.myqcloud.com/blog/algorithm/%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6%E4%B8%8E%E7%A9%BA%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6.png)
+![时间复杂度与空间复杂度](https://perye.oss-cn-shenzhen.aliyuncs.com/blog/algorithm/%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6%E4%B8%8E%E7%A9%BA%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6.png)
 
 **关于时间复杂度**
 1. 平方阶 (O(n<sup>2</sup>)) 排序 各类简单排序：直接插入、直接选择和冒泡排序。
@@ -51,7 +49,7 @@ password:
 - 持续每次对越来越少的元素重复上面的步骤，直到没有任何一对数字需要比较。
   
 ### 动画演示
-![冒泡排序动画演示](https://perye-1253375012.cos.ap-guangzhou.myqcloud.com/blog/algorithm/%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F%E5%8A%A8%E7%94%BB%E6%BC%94%E7%A4%BA.gif)
+![冒泡排序动画演示](https://perye.oss-cn-shenzhen.aliyuncs.com/blog/algorithm/%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F%E5%8A%A8%E7%94%BB%E6%BC%94%E7%A4%BA.gif)
 
 ### 参考代码
 ```java
@@ -86,7 +84,7 @@ public class BubbleSort {
 - 重复第二步，直到所有元素均排序完毕。
 
 ### 动画演示
-![选择排序动画演示](https://perye-1253375012.cos.ap-guangzhou.myqcloud.com/blog/algorithm/%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F%E5%8A%A8%E7%94%BB%E6%BC%94%E7%A4%BA.gif)
+![选择排序动画演示](https://perye.oss-cn-shenzhen.aliyuncs.com/blog/algorithm/%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F%E5%8A%A8%E7%94%BB%E6%BC%94%E7%A4%BA.gif)
 
 ### 参考代码
 ```java
@@ -121,7 +119,7 @@ public class SelectionSort {
 - 从头到尾依次扫描未排序序列，将扫描到的每个元素插入有序序列的适当位置。（如果待插入的元素与有序序列中的某个元素相等，则将待插入元素插入到相等元素的后面。）
 
 ### 动画演示
-![插入排序动画演示](https://perye-1253375012.cos.ap-guangzhou.myqcloud.com/blog/algorithm/%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F%E5%8A%A8%E7%94%BB%E6%BC%94%E7%A4%BA.gif)
+![插入排序动画演示](https://perye.oss-cn-shenzhen.aliyuncs.com/blog/algorithm/%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F%E5%8A%A8%E7%94%BB%E6%BC%94%E7%A4%BA.gif)
 
 ### 参考代码
 ```java
@@ -156,7 +154,7 @@ public class InsertSort {
 - 每趟排序，根据对应的增量 t<sub>i</sub>，将待排序列分割成若干长度为 m 的子序列，分别对各子表进行直接插入排序。仅增量因子为 1 时，整个序列作为一个表来处理，表长度即为整个序列的长度。
 
 ### 动画演示
-![希尔排序动画演示](https://perye-1253375012.cos.ap-guangzhou.myqcloud.com/blog/algorithm/%E5%B8%8C%E5%B0%94%E6%8E%92%E5%BA%8F%E5%8A%A8%E7%94%BB%E6%BC%94%E7%A4%BA.gif)
+![希尔排序动画演示](https://perye.oss-cn-shenzhen.aliyuncs.com/blog/algorithm/%E5%B8%8C%E5%B0%94%E6%8E%92%E5%BA%8F%E5%8A%A8%E7%94%BB%E6%BC%94%E7%A4%BA.gif)
 ###  参考代码
 ```java
 public class ShellSort {
@@ -192,7 +190,7 @@ public class ShellSort {
 - 将另一序列剩下的所有元素直接复制到合并序列尾。
   
 ### 动画演示
-![归并排序动画演示](https://perye-1253375012.cos.ap-guangzhou.myqcloud.com/blog/algorithm/%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F%E5%8A%A8%E7%94%BB%E6%BC%94%E7%A4%BA.gif)
+![归并排序动画演示](https://perye.oss-cn-shenzhen.aliyuncs.com/blog/algorithm/%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F%E5%8A%A8%E7%94%BB%E6%BC%94%E7%A4%BA.gif)
 
 ### 参考代码
 ```java
@@ -240,7 +238,7 @@ public class MergeSort {
 - 递归地（recursive）把小于基准值元素的子数列和大于基准值元素的子数列排序；
 
 ### 动画演示
-![快速排序动画演示](https://perye-1253375012.cos.ap-guangzhou.myqcloud.com/blog/algorithm/%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F%E5%8A%A8%E7%94%BB%E6%BC%94%E7%A4%BA.gif)
+![快速排序动画演示](https://perye.oss-cn-shenzhen.aliyuncs.com/blog/algorithm/%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F%E5%8A%A8%E7%94%BB%E6%BC%94%E7%A4%BA.gif)
 ### 参考代码
 ```java
 public class QuickSort {
@@ -284,7 +282,7 @@ public class QuickSort {
 - 把堆的尺寸缩小 1，并调用 shift_down(0)，目的是把新的数组顶端数据调整到相应位置；
 - 重复步骤 2，直到堆的尺寸为 1。
 ### 动画演示
-![堆排序动画演示](https://perye-1253375012.cos.ap-guangzhou.myqcloud.com/blog/algorithm/%E5%A0%86%E6%8E%92%E5%BA%8F%E5%8A%A8%E7%94%BB%E6%BC%94%E7%A4%BA.gif)
+![堆排序动画演示](https://perye.oss-cn-shenzhen.aliyuncs.com/blog/algorithm/%E5%A0%86%E6%8E%92%E5%BA%8F%E5%8A%A8%E7%94%BB%E6%BC%94%E7%A4%BA.gif)
 ### 参考代码
 ```java
 public class HeapSort  {
@@ -339,7 +337,7 @@ public class HeapSort  {
 - 数组 B 中 index 的元素记录的值是 A 中某元素出现的次数
 - 最后输出目标整数序列，具体的逻辑是遍历数组 B，输出相应元素以及对应的个数
 ### 动画演示
-![计数排序动画演示](https://perye-1253375012.cos.ap-guangzhou.myqcloud.com/blog/algorithm/%E8%AE%A1%E6%95%B0%E6%8E%92%E5%BA%8F%E5%8A%A8%E7%94%BB%E6%BC%94%E7%A4%BA.gif)
+![计数排序动画演示](https://perye.oss-cn-shenzhen.aliyuncs.com/blog/algorithm/%E8%AE%A1%E6%95%B0%E6%8E%92%E5%BA%8F%E5%8A%A8%E7%94%BB%E6%BC%94%E7%A4%BA.gif)
 ### 参考代码
 ```java
 public class CountingSort {
@@ -386,7 +384,7 @@ public class CountingSort {
 - 对每个不为空的桶中数据进行排序。
 - 拼接不为空的桶中数据，得到结果
 ### 动画演示
-![桶排序动画演示](https://perye-1253375012.cos.ap-guangzhou.myqcloud.com/blog/algorithm/%E6%A1%B6%E6%8E%92%E5%BA%8F%E5%8A%A8%E7%94%BB%E6%BC%94%E7%A4%BA.gif)
+![桶排序动画演示](https://perye.oss-cn-shenzhen.aliyuncs.com/blog/algorithm/%E6%A1%B6%E6%8E%92%E5%BA%8F%E5%8A%A8%E7%94%BB%E6%BC%94%E7%A4%BA.gif)
 
 ### 参考代码
 ```java
@@ -447,7 +445,7 @@ public class BucketSort {
 - 从最低位排序一直到最高位排序完成以后, 数列就变成一个有序序列
  
 ### 动画演示
-![基数排序动画演示](https://perye-1253375012.cos.ap-guangzhou.myqcloud.com/blog/algorithm/%E5%9F%BA%E6%95%B0%E6%8E%92%E5%BA%8F%E5%8A%A8%E7%94%BB%E6%BC%94%E7%A4%BA.gif)
+![基数排序动画演示](https://perye.oss-cn-shenzhen.aliyuncs.com/blog/algorithm/%E5%9F%BA%E6%95%B0%E6%8E%92%E5%BA%8F%E5%8A%A8%E7%94%BB%E6%BC%94%E7%A4%BA.gif)
 
 ### 参考代码
 ```java

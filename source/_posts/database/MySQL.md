@@ -50,7 +50,7 @@ MySQL 是一种关系型数据库，在Java企业级开发中非常常用，因�
 mysql> show engines;
 ```
 
-![查看MySQL提供的所有存储引擎](https://perye-1253375012.cos.ap-guangzhou.myqcloud.com/blog/mysql/mysql-engines.png)
+![查看MySQL提供的所有存储引擎](https://perye.oss-cn-shenzhen.aliyuncs.com/blog/mysql/mysql-engines.png)
 
 从上图我们可以查看出 MySQL 当前默认的存储引擎是InnoDB,并且在5.7版本所有的存储引擎中只有 InnoDB 是事务性存储引擎，也就是说只有 InnoDB 支持事务。
 
@@ -68,7 +68,7 @@ mysql> show variables like '%storage_engine%';
 show table status like "table_name" ;
 ```
 
-![查看表的存储引擎](https://perye-1253375012.cos.ap-guangzhou.myqcloud.com/blog/mysql/%E6%9F%A5%E7%9C%8B%E8%A1%A8%E7%9A%84%E5%AD%98%E5%82%A8%E5%BC%95%E6%93%8E.png)
+![查看表的存储引擎](https://perye.oss-cn-shenzhen.aliyuncs.com/blog/mysql/%E6%9F%A5%E7%9C%8B%E8%A1%A8%E7%9A%84%E5%AD%98%E5%82%A8%E5%BC%95%E6%93%8E.png)
 
 #### MyISAM和InnoDB区别
 
@@ -142,7 +142,7 @@ select sql_no_cache count(*) from usr;
 
 ### 事物的四大特性(ACID)
 
-![事物的特性](https://perye-1253375012.cos.ap-guangzhou.myqcloud.com/blog/mysql/%E4%BA%8B%E5%8A%A1%E7%89%B9%E6%80%A7.png)
+![事物的特性](https://perye.oss-cn-shenzhen.aliyuncs.com/blog/mysql/%E4%BA%8B%E5%8A%A1%E7%89%B9%E6%80%A7.png)
 
 1. **原子性（Atomicity）：** 事务是最小的执行单位，不允许分割。事务的原子性确保动作要么全部完成，要么完全不起作用；
 2. **一致性（Consistency）：** 执行事务前后，数据保持一致，多个事务对同一个数据读取的结果是相同的；
@@ -243,7 +243,7 @@ InnoDB 存储引擎在 **分布式事务** 的情况下一般会用到 **SERIALI
  **根据数据库里面数据表的相关性进行拆分。** 例如，用户表中既有用户的登录信息又有用户的基本信息，可以将用户表拆分成两个单独的表，甚至放到单独的库做分库。
 
  **简单来说垂直拆分是指数据表列的拆分，把一张列比较多的表拆分为多张表。** 如下图所示，这样来说大家应该就更容易理解了。
- ![数据库垂直分区](https://perye-1253375012.cos.ap-guangzhou.myqcloud.com/blog/mysql/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%9E%82%E7%9B%B4%E5%88%86%E5%8C%BA.png)
+ ![数据库垂直分区](https://perye.oss-cn-shenzhen.aliyuncs.com/blog/mysql/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%9E%82%E7%9B%B4%E5%88%86%E5%8C%BA.png)
 
 - **垂直拆分的优点：** 可以使得列数据变小，在查询时减少读取的Block数，减少I/O次数。此外，垂直分区可以简化表的结构，易于维护。
 - **垂直拆分的缺点：** 主键会出现冗余，需要管理冗余列，并会引起Join操作，可以通过在应用层进行Join来解决。此外，垂直分区会让事务变得更加复杂；
@@ -254,7 +254,7 @@ InnoDB 存储引擎在 **分布式事务** 的情况下一般会用到 **SERIALI
 
  水平拆分是指数据表行的拆分，表的行数超过200万行时，就会变慢，这时可以把一张的表的数据拆成多张表来存放。举个例子：我们可以将用户信息表拆分成多个用户信息表，这样就可以避免单一表数据量过大对性能造成影响。
 
-![数据库水平拆分](https://perye-1253375012.cos.ap-guangzhou.myqcloud.com/blog/mysql/%E6%95%B0%E6%8D%AE%E5%BA%93%E6%B0%B4%E5%B9%B3%E6%8B%86%E5%88%86.png)
+![数据库水平拆分](https://perye.oss-cn-shenzhen.aliyuncs.com/blog/mysql/%E6%95%B0%E6%8D%AE%E5%BA%93%E6%B0%B4%E5%B9%B3%E6%8B%86%E5%88%86.png)
 
 水平拆分可以支持非常大的数据量。需要注意的一点是：分表仅仅是解决了单一表数据过大的问题，但由于表的数据还是在同一台机器上，其实对于提升MySQL并发能力没有什么意义，所以 **水平拆分最好分库** 。
 

@@ -1,7 +1,6 @@
 ---
 title: 如何在大量的数据中找出不重复的整数？
 top: true
-cover: true
 toc: true
 mathjax: false
 categories: 大数据

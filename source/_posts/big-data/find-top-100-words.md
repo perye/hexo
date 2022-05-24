@@ -1,7 +1,6 @@
 ---
 title: 如何从大量数据中找出高频词？
 top: true
-cover: true
 toc: true
 mathjax: false
 summary: 

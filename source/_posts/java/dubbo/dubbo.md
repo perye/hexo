@@ -19,7 +19,7 @@ Dubbo是一款高性能、轻量级的开源Java RPC框架，它提供了三大�
 
 ### 基本原理
 
-![dubbo节点](https://perye-1253375012.cos.ap-guangzhou.myqcloud.com/blog/java/dubbo/dubbo%E8%8A%82%E7%82%B9.jpg)
+![dubbo节点](https://perye.oss-cn-shenzhen.aliyuncs.com/blog/java/dubbo/dubbo%E8%8A%82%E7%82%B9.jpg)
 
 节点角色说明
 
@@ -48,7 +48,7 @@ Dubbo是一款高性能、轻量级的开源Java RPC框架，它提供了三大�
 
 ### 架构设计
 
-![dubbo架构图](https://perye-1253375012.cos.ap-guangzhou.myqcloud.com/blog/java/dubbo/dubbo%E6%9E%B6%E6%9E%84%E5%9B%BE.png)
+![dubbo架构图](https://perye.oss-cn-shenzhen.aliyuncs.com/blog/java/dubbo/dubbo%E6%9E%B6%E6%9E%84%E5%9B%BE.png)
 
 Dubbo框架设计一共划分了10个层:
 服务接口层（Service）：该层是与实际业务逻辑相关的，根据服务提供方和服务消费方的业务设计对应的接口和实现。

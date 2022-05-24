@@ -1,8 +1,6 @@
 ---
 title: 如何从大量的 URL 中找出相同的 URL？
 author: 
-top: true
-cover: true
 toc: true
 mathjax: false
 summary: 
