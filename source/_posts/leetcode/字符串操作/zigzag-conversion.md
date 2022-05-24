@@ -10,8 +10,10 @@ abbrlink: 5f15c7f2
 date: 2020-10-20 17:36:23
 ---
 
-    来源：力扣（LeetCode）
-    链接：https://leetcode-cn.com/problems/zigzag-conversion/
+```text
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/zigzag-conversion/
+```
 
 ## 题目
 将一个给定字符串根据给定的行数，以从上往下、从左到右进行 Z 字形排列。

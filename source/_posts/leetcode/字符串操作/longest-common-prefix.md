@@ -10,8 +10,10 @@ abbrlink: c5b7784d
 date: 2020-10-20 17:40:11
 ---
 
-    来源：力扣（LeetCode）
-    链接：https://leetcode-cn.com/problems/longest-common-prefix/
+```text
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/longest-common-prefix/
+```
 
 ## 题目
 编写一个函数来查找字符串数组中的最长公共前缀。

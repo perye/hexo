@@ -2,9 +2,8 @@
 title: dubbo
 top: false
 cover: false
-categories: Java
+categories: 中间件
 tags:
-  - Java
   - dubbo
 keywords: dubbo
 abbrlink: 37e41c9c

@@ -11,8 +11,10 @@ abbrlink: 691a407d
 date: 2020-10-20 15:22:36
 ---
 
-    来源：力扣（LeetCode）
-    链接：https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/
+```text
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/
+```
 
 ## 题目
 给定一个链表，删除链表的倒数第 n 个节点，并且返回链表的头结点。

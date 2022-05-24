@@ -11,8 +11,10 @@ abbrlink: 750521b8
 date: 2020-10-20 12:37:41
 ---
 
-    来源：力扣（LeetCode）
-    链接：https://leetcode-cn.com/problems/first-unique-character-in-a-string/
+```text
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/first-unique-character-in-a-string/
+```
 
 ## 题目
 给定一个字符串，找到它的第一个不重复的字符，并返回它的索引。如果不存在，则返回 -1。

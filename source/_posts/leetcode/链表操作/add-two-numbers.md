@@ -11,8 +11,10 @@ abbrlink: b2bb6df8
 date: 2020-10-20 15:16:10
 ---
 
-    来源：力扣（LeetCode）
-    链接：https://leetcode-cn.com/problems/add-two-numbers/
+```text
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/add-two-numbers/
+```
 
 ## 题目
 给出两个 非空 的链表用来表示两个非负的整数。其中，它们各自的位数是按照 逆序 的方式存储的，并且它们的每个节点只能存储 一位 数字。

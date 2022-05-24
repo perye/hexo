@@ -4,7 +4,6 @@ top: false
 cover: false
 categories: Java
 tags:
-  - Java
   - Collections
   - Arrays
 abbrlink: eb1e983c

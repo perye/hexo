@@ -11,8 +11,10 @@ abbrlink: 742bfcc5
 date: 2020-10-20 11:37:41
 ---
 
-    来源：力扣（LeetCode）
-    链接：https://leetcode-cn.com/problems/two-sum
+```text
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/two-sum
+```
 
 ## 题目
 给定一个整数数组 `nums` 和一个目标值 `target`，请你在该数组中找出和为目标值的那**两个**整数，并返回他们的数组下标。

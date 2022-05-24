@@ -10,8 +10,10 @@ abbrlink: a19ce20c
 date: 2020-10-20 11:47:41
 ---
 
-    来源：力扣（LeetCode）
-    链接：https://leetcode-cn.com/problems/reverse-integer/
+```text
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/reverse-integer/
+```
 
 ## 题目
 给出一个 32 位的有符号整数，你需要将这个整数中每位上的数字进行反转。
@@ -78,6 +80,6 @@ rev = temp;
 当rev为负时可以应用类似的逻辑
 
 #### 复杂度分析
-     
+
 时间复杂度：O(log(x))，x中大约有 log<sub>10</sub>(x)位数字。
 空间复杂度：O(1)。

@@ -2,12 +2,9 @@
 title: String、Long源码解析和面试题
 top: false
 cover: false
-categories: 精读Java源码
+categories: Java
 tags:
   - Java
-  - String
-  - Long
-  - 源码
   - 面试
 keywords: String、Long源码解析和面试题
 abbrlink: cf8c33bc
